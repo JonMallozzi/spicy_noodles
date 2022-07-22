@@ -1,0 +1,5 @@
+# TODO: make the filepath relative to cwd
+
+sqlite3 ./backend/database/test.db "CREATE TABLE NOODLE(id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, NAME TEXT,FLOURTYPE TEXT);"
+
+sqlite3 ./backend/database/test.db "INSERT INTO NOODLE(NAME,FLOURTYPE) VALUES ('Ramen', 'Semi-Strong');"
